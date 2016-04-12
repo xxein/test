@@ -10,6 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            new Program().DoPrint();
+        }
+
+        public void DoPrint()
+        {
             Console.WriteLine("Boo");
             Console.WriteLine("Foo");
             Console.WriteLine("Bar");
